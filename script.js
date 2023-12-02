@@ -65,3 +65,6 @@ class Tdip{
         this.tdip = tdip;
     }
 }
+
+const poste1 = new Poste();
+const tel1 = new Tel();
