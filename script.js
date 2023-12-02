@@ -68,3 +68,12 @@ class Tdip{
 
 const poste1 = new Poste();
 const tel1 = new Tel();
+const email1 = new Email();
+const pss1 = new Pss();
+const sss1 = new Sss();
+const pexp1 = new Pexp();
+const sexp1 = new Sexp();
+const texp1 = new Texp();
+const pdip1 = new Pdip();
+const sdip1 = new Sdip();
+const tdip = new Tdip();
