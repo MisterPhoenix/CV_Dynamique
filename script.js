@@ -68,17 +68,17 @@ class Tdip{
 
 // création des constantes pour chaques champs
 
-const poste1 = new Poste(newposte);
-const tel1 = new Tel();
-const email1 = new Email();
-const pss1 = new Pss();
-const sss1 = new Sss();
-const pexp1 = new Pexp();
-const sexp1 = new Sexp();
-const texp1 = new Texp();
-const pdip1 = new Pdip();
-const sdip1 = new Sdip();
-const tdip1 = new Tdip();
+const poste1 = new Poste("Développeur Web");
+const tel1 = new Tel("06.07.08.09.10");
+const email1 = new Email("contact@taff.com");
+const pss1 = new Pss("sérieux");
+const sss1 = new Sss("professionnel");
+const pexp1 = new Pexp("développeur pour le compte de dévmania");
+const sexp1 = new Sexp("création du site et aplication du groupe Carfour");
+const texp1 = new Texp("travail.pôleemploie");
+const pdip1 = new Pdip("Baccalauréat Scientifique");
+const sdip1 = new Sdip("Licence mention métiers de l'informatique");
+const tdip1 = new Tdip("Master Informatique");
 
 // récupération des champs à remplir par l'ID avec les informations à chercher côté JavaScript
 
@@ -93,5 +93,3 @@ document.getElementById("texp").innerHTML = texp1.texp;
 document.getElementById("pdip").innerHTML = pdip1.pdip;
 document.getElementById("sdip").innerHTML = sdip1.sdip;
 document.getElementById("tdip").innerHTML = tdip1.tdip;
-
-newposte = "Développeur Web";
