@@ -68,7 +68,7 @@ class Tdip{
 
 // création des constantes pour chaques champs
 
-const poste1 = new Poste();
+const poste1 = new Poste(newposte);
 const tel1 = new Tel();
 const email1 = new Email();
 const pss1 = new Pss();
@@ -93,3 +93,5 @@ document.getElementById("texp").innerHTML = texp1.texp;
 document.getElementById("pdip").innerHTML = pdip1.pdip;
 document.getElementById("sdip").innerHTML = sdip1.sdip;
 document.getElementById("tdip").innerHTML = tdip1.tdip;
+
+newposte = "Développeur Web";
