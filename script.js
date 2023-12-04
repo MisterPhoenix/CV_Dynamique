@@ -78,7 +78,7 @@ const sexp1 = new Sexp();
 const texp1 = new Texp();
 const pdip1 = new Pdip();
 const sdip1 = new Sdip();
-const tdip = new Tdip();
+const tdip1 = new Tdip();
 
 // récupération des champs à remplir par l'ID avec les informations à chercher côté JavaScript
 
