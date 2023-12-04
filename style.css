@@ -1,0 +1,7 @@
+/* création de la taille et police d'écriture standard pour la page */
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
