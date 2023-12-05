@@ -8,5 +8,9 @@
 /* définiton de la couleur des titres */
 
 h1{
-    color: blue;
+    color: orange;
+}
+
+h2{
+    color: red;
 }
