@@ -96,6 +96,8 @@ const tdip1 = new Tdip("Master Informatique");
 
 // récupération des champs à remplir par l'ID avec les informations à chercher côté JavaScript
 
+document.getElementById("nom").innerHTML = nom1.nom;
+document.getElementById("prenom").innerHTML = prenom1.prenom;
 document.getElementById("poste").innerHTML = poste1.poste;
 document.getElementById("tel").innerHTML = tel1.tel;
 document.getElementById("email").innerHTML = email1.email;
