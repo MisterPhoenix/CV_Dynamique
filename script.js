@@ -1,5 +1,17 @@
 // création des classes js pour chaques champs du CV
 
+class Nom{
+    constructor(nom){
+        this.nom = nom;
+    }
+}
+
+class Prenom{
+    constructor(prenom){
+        this.prenom = prenom;
+    }
+}
+
 class Poste{
     constructor(poste){
         this.poste = poste;
