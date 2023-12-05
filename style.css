@@ -19,8 +19,8 @@ h2{
 
 section{
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-around;
+    flex-grow: 1;
 }
 
 /* utilisation flexbox pour le footer */
