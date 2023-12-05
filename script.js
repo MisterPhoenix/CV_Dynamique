@@ -80,8 +80,8 @@ class Tdip{
 
 // création des constantes pour chaques champs
 
-const nom1 = new Nom("Nom :" + "Prin-Abeil");
-const prenom1 = new Prenom("Prénom :" + "Arnaud");
+const nom1 = new Nom("Nom : " + "Prin-Abeil");
+const prenom1 = new Prenom("Prénom : " + "Arnaud");
 const poste1 = new Poste("Développeur Web");
 const tel1 = new Tel("06.07.08.09.10");
 const email1 = new Email("contact@taff.com");
