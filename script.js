@@ -109,3 +109,9 @@ document.getElementById("texp").innerHTML = texp1.texp;
 document.getElementById("pdip").innerHTML = pdip1.pdip;
 document.getElementById("sdip").innerHTML = sdip1.sdip;
 document.getElementById("tdip").innerHTML = tdip1.tdip;
+
+// Impression de la page
+
+function imprimer_page(){
+    window.print;
+}
