@@ -62,18 +62,42 @@ function pss(){
     }
 }
 
-const pss1 = new Pss("sérieux");
-const sss1 = new Sss("professionnel");
-const pexp1 = new Pexp("développeur pour le compte de dévmania");
+function sss(){
+    let contenu = document.getElementById("sss");
+
+    if(contenu.innerHTML === "professionnel"){
+        contenu.innerHTML = "florian";
+    } else {
+        contenu.innerHTML = "professionnel";
+    }
+}
+
+function pexp(){
+    let contenu = document.getElementById("pexp");
+
+    if(contenu.innerHTML === "développeur pour le compte de dévmania"){
+        contenu.innerHTML = "stage chez Dubois Info";
+    } else {
+        contenu.innerHTML = "développeur pour le compte de dévmania";
+    }
+}
+
+function sexp(){
+    let contenu = document.getElementById("sexp");
+
+    if(contenu.innerHTML === "création du site et application du groupe Carfour"){
+        contenu.innerHTML = "développeur à la mairie de Meyzieu";
+    } else {
+        contenu.innerHTML = "création du site et application du groupe Carfour";
+    }
+}
+
 const sexp1 = new Sexp("création du site et application du groupe Carfour");
 const texp1 = new Texp("pôle emploie");
 const pdip1 = new Pdip("Baccalauréat Scientifique");
 const sdip1 = new Sdip("Licence mention métiers de l'informatique");
 const tdip1 = new Tdip("Master Informatique");
 
-document.getElementById("pss").innerHTML = pss1.pss;
-document.getElementById("sss").innerHTML = sss1.sss;
-document.getElementById("pexp").innerHTML = pexp1.pexp;
 document.getElementById("sexp").innerHTML = sexp1.sexp;
 document.getElementById("texp").innerHTML = texp1.texp;
 document.getElementById("pdip").innerHTML = pdip1.pdip;
