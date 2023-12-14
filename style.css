@@ -25,22 +25,19 @@ h2{
 
 /* Mise en page coordonnées */
 
-#butco{       /* Mise en pages bouttons */
-    display: flex;
-    flex-direction: column;
-}
-
 #coordonnees{   /* mise en page générale */
     display: flex;
     align-items: center;
 }
 
-/* Mise en page Softs skills */
+/* Mise en page des bouttons */
 
-#butsoft{
+.button{
     display: flex;
     flex-direction: column;
 }
+
+/* Mise en page Softs skills */
 
 #soft{
     display: flex;
