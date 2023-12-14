@@ -1,98 +1,38 @@
-// création des classes js pour chaques champs du CV
+// création des fonctions js pour chaques champs du CV
 
 function nom(){
-    let contenu = document.getElementById("nom");
+    let contenu = document.getElementById("nom"); // création varaible avec récupération de l'id du champs à remplir
 
-    if(contenu.innerHTML === "Nom : Prin-Abeil"){
-        contenu.innerHTML = "Nom : Sanchez";
+    // création du fonctionnement du bouton switch
+
+    if(contenu.innerHTML === "Nom : Prin-Abeil"){ // Si le contenu actuel est égale au premier profil
+        contenu.innerHTML = "Nom : Sanchez";     // Changement de profil
     } else {
-        contenu.innerHTML = "Nom : Prin-Abeil";
+        contenu.innerHTML = "Nom : Prin-Abeil";   //Sinon remettre nom de base
     }
 }
 
+function prenom(){
+    let contenu = document.getElementById("prenom");
 
-/** class Nom{
-    constructor(nom){
-        this.nom = nom;
-    }
-} */
-
-class Prenom{
-    constructor(prenom){
-        this.prenom = prenom;
+    if(contenu.innerHTML === "Prénom : Arnaud"){
+        contenu.innerHTML = "Prénom : Anthony";
+    } else {
+        contenu.innerHTML = "Prénom : Arnaud";
     }
 }
 
-class Poste{
-    constructor(poste){
-        this.poste = poste;
+function poste(){
+    let contenu = document.getElementById("poste");
+
+    if(contenu.innerHTML === "Développeur Web"){
+        contenu.innerHTML = "Administrateur réseau";
+    } else {
+        contenu.innerHTML = "Développeur Web";
     }
 }
-
-class Tel{
-    constructor(tel){
-        this.tel = tel;
-    }
-}
-
-class Email{
-    constructor(email){
-        this.email = email;
-    }
-}
-
-class Pss{
-    constructor(pss){
-        this.pss = pss;
-    }
-}
-
-class Sss{
-    constructor(sss){
-        this.sss = sss;
-    }
-}
-
-class Pexp{
-    constructor(pexp){
-        this.pexp = pexp;
-    }
-}
-
-class Sexp{
-    constructor(sexp){
-        this.sexp = sexp;
-    }
-}
-
-class Texp{
-    constructor(texp){
-        this.texp = texp;
-    }
-}
-
-class Pdip{
-    constructor(pdip){
-        this.pdip = pdip;
-    }
-}
-
-class Sdip{
-    constructor(sdip){
-        this.sdip = sdip;
-    }
-}
-
-class Tdip{
-    constructor(tdip){
-        this.tdip = tdip;
-    }
-}
-
 // création des constantes pour chaques champs
 
-const prenom1 = new Prenom("Prénom : " + "Arnaud");
-const poste1 = new Poste("Développeur Web");
 const tel1 = new Tel("06.07.08.09.10");
 const email1 = new Email("contact@taff.com");
 const pss1 = new Pss("sérieux");
@@ -106,8 +46,6 @@ const tdip1 = new Tdip("Master Informatique");
 
 // récupération des champs à remplir par l'ID avec les informations à chercher côté JavaScript
 
-document.getElementById("prenom").innerHTML = prenom1.prenom;
-document.getElementById("poste").innerHTML = poste1.poste;
 document.getElementById("tel").innerHTML = tel1.tel;
 document.getElementById("email").innerHTML = email1.email;
 document.getElementById("pss").innerHTML = pss1.pss;
