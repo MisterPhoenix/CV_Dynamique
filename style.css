@@ -23,10 +23,30 @@ h2{
     flex-grow: 1;
 }
 
-#coordonnees{
+/* Mise en page coordonnées */
+
+#butco{       /* Mise en pages bouttons */
+    display: flex;
+    flex-direction: column;
+}
+
+#coordonnees{   /* mise en page générale */
     display: flex;
     align-items: center;
 }
+
+/* Mise en page Softs skills */
+
+#butsoft{
+    display: flex;
+    flex-direction: column;
+}
+
+#soft{
+    display: flex;
+    align-items: center;
+}
+
 /* création responsive */
 
 @media screen and (max-width:990px) and (orientation:portrait) {
