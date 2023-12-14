@@ -31,6 +31,8 @@ function poste(){
         contenu.innerHTML = "Développeur Web";
     }
 }
+
+
 // création des constantes pour chaques champs
 
 const tel1 = new Tel("06.07.08.09.10");
