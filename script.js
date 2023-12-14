@@ -92,13 +92,11 @@ function sexp(){
     }
 }
 
-const sexp1 = new Sexp("création du site et application du groupe Carfour");
 const texp1 = new Texp("pôle emploie");
 const pdip1 = new Pdip("Baccalauréat Scientifique");
 const sdip1 = new Sdip("Licence mention métiers de l'informatique");
 const tdip1 = new Tdip("Master Informatique");
 
-document.getElementById("sexp").innerHTML = sexp1.sexp;
 document.getElementById("texp").innerHTML = texp1.texp;
 document.getElementById("pdip").innerHTML = pdip1.pdip;
 document.getElementById("sdip").innerHTML = sdip1.sdip;
