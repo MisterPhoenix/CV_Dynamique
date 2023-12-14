@@ -23,15 +23,6 @@ h2{
     flex-grow: 1;
 }
 
-/* utilisation flexbox pour le footer */
-
-footer{
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    flex-grow: 1;
-}
-
 /* création responsive */
 
 @media screen and (max-width:990px) and (orientation:portrait) {
