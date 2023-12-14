@@ -32,11 +32,36 @@ function poste(){
     }
 }
 
+function tel(){
+    let contenu = document.getElementById("tel");
 
-// création des constantes pour chaques champs
+    if(contenu.innerHTML === "06.07.08.09.10"){
+        contenu.innerHTML = "07.85.98.14.20";
+    } else {
+        contenu.innerHTML = "06.07.08.09.10";
+    }
+}
 
-const tel1 = new Tel("06.07.08.09.10");
-const email1 = new Email("contact@taff.com");
+function email(){
+    let contenu = document.getElementById("email");
+
+    if(contenu.innerHTML === "contact@taff.com"){
+        contenu.innerHTML = "contact@cmd.com";
+    } else {
+        contenu.innerHTML = "contact@taff.com"
+    }
+}
+
+function pss(){
+    let contenu = document.getElementById("pss");
+
+    if(contenu.innerHTML === "sérieux"){
+        contenu.innerHTML = "attentif";
+    } else {
+        contenu.innerHTML = "sérieux";
+    }
+}
+
 const pss1 = new Pss("sérieux");
 const sss1 = new Sss("professionnel");
 const pexp1 = new Pexp("développeur pour le compte de dévmania");
@@ -46,10 +71,6 @@ const pdip1 = new Pdip("Baccalauréat Scientifique");
 const sdip1 = new Sdip("Licence mention métiers de l'informatique");
 const tdip1 = new Tdip("Master Informatique");
 
-// récupération des champs à remplir par l'ID avec les informations à chercher côté JavaScript
-
-document.getElementById("tel").innerHTML = tel1.tel;
-document.getElementById("email").innerHTML = email1.email;
 document.getElementById("pss").innerHTML = pss1.pss;
 document.getElementById("sss").innerHTML = sss1.sss;
 document.getElementById("pexp").innerHTML = pexp1.pexp;
