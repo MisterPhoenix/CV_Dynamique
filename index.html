@@ -9,23 +9,44 @@
 <body>
     <script src="script.js" defer></script>
     <header>
-            <p id="nom"></p>
+            <p id="caution">/!\ Veuillez utilisez le même boutton pour afficher puis changer les éléments cibles</p>
+            <button onclick="nom()">Affichage/new Nom</button> <!-- Création d'un boutton switch -->
+
+            <p id="nom"></p> <!-- utilisation des id pour cibler ce code dans le JavaScript -->
+            <button>Affichage/new Prénom</button>
+
             <p id="prenom"></p>
-            <button onclick="nom()">Test</button>
-            <h1 id="poste"></h1> <!-- utilisation des id pour cibler ce code dans le JavaScript -->
+            <button>Affichage/new Poste</button>
+
+            <h1 id="poste"></h1>
+            <button>Affichage/New Poste</button>
         <aside>
             <h2>Coordonnées</h2>
-            <ul>
-                    <li id="tel"></li>
-                    <li id="email"></li>
-            </ul>
-            <button>Changer Coordonnées</button>
+            <section id="coordonnees">
+                <section>
+                    <ul>
+                        <li id="tel"></li>
+                        <li id="email"></li>
+                    </ul>
+                </section>
+                <section id="butco">
+                    <button>Affichage/New tel</button>
+                    <button>Affichage/New Mail/button>
+                </section>
+            </section>
             <h2>Soft Skills</h2>
-            <ul>
-                    <li id="pss"></li> <!-- pss = premier soft skills, sss = seconde ss -->
-                    <li id="sss"></li>
-            </ul>
-            <button>Changer Soft Skills</button>
+            <section id="soft">
+                <section>
+                    <ul>
+                        <li id="pss"></li> <!-- pss = premier soft skills, sss = seconde ss -->
+                        <li id="sss"></li>
+                    </ul>
+                </section>
+                <section>
+                    <button>Affichage/New Soft Skill 1</button>
+                    <button>Affichage/New Soft Skill 2</button>
+                </section>
+            </section>
         </aside>
     </header>
     <main>
