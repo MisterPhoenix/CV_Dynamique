@@ -1,10 +1,21 @@
 // création des classes js pour chaques champs du CV
 
-class Nom{
+function nom(){
+    let contenu = document.getElementById("nom");
+
+    if(contenu.innerHTML === "Nom : Prin-Abeil"){
+        contenu.innerHTML = "Nom : Sanchez";
+    } else {
+        contenu.innerHTML = "Nom : Prin-Abeil";
+    }
+}
+
+
+/** class Nom{
     constructor(nom){
         this.nom = nom;
     }
-}
+} */
 
 class Prenom{
     constructor(prenom){
@@ -80,7 +91,6 @@ class Tdip{
 
 // création des constantes pour chaques champs
 
-const nom1 = new Nom("Nom : " + "Prin-Abeil");
 const prenom1 = new Prenom("Prénom : " + "Arnaud");
 const poste1 = new Poste("Développeur Web");
 const tel1 = new Tel("06.07.08.09.10");
@@ -96,7 +106,6 @@ const tdip1 = new Tdip("Master Informatique");
 
 // récupération des champs à remplir par l'ID avec les informations à chercher côté JavaScript
 
-document.getElementById("nom").innerHTML = nom1.nom;
 document.getElementById("prenom").innerHTML = prenom1.prenom;
 document.getElementById("poste").innerHTML = poste1.poste;
 document.getElementById("tel").innerHTML = tel1.tel;
