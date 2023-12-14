@@ -23,6 +23,10 @@ h2{
     flex-grow: 1;
 }
 
+#coordonnees{
+    display: flex;
+    align-items: center;
+}
 /* création responsive */
 
 @media screen and (max-width:990px) and (orientation:portrait) {
