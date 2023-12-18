@@ -53,6 +53,7 @@ img{
 .button{
     display: flex;
     flex-direction: column;
+    color: black;
 }
 
 /* Mise en page Softs skills */
