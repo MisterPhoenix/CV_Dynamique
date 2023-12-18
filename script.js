@@ -106,7 +106,7 @@ function pdip(){
     let contenu = document.getElementById("pdip");
 
     if(contenu.innerHTML === "Baccalauréat Scientifique"){
-        contenu.innerHTML === "C.A.P. Ingénieur génie industrielle";
+        contenu.innerHTML = "C.A.P. Ingénieur génie industrielle";
     } else {
         contenu.innerHTML = "Baccalauréat Scientifique";
     }
