@@ -15,7 +15,19 @@ h2{
     color: red;
 }
 
+/* Définition couleur du texte */
+
+*{
+    color: white;
+}
+
 /* Mise en page CV */
+
+body{
+    background: rgb(32, 32, 32);
+    display: flex;
+    align-items: center;
+}
 
 #corpscv{
     display: flex;
@@ -23,9 +35,10 @@ h2{
     flex-grow: 1;
 }
 
-body{
-    display: flex;
-    align-items: center;
+/* Définition taille image du CV */
+
+img{
+    width: 80px;
 }
 
 /* Mise en page coordonnées */
