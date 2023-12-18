@@ -23,6 +23,11 @@ h2{
     flex-grow: 1;
 }
 
+body{
+    display: flex;
+    align-items: center;
+}
+
 /* Mise en page coordonnées */
 
 #coordonnees{   /* mise en page générale */
