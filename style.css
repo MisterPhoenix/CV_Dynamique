@@ -18,7 +18,11 @@ h2{
 /* Définition couleur du texte */
 
 p{
-    color: white;
+    color: white; /* couleurs paragraphes */
+}
+
+li{
+    color: white; /* couleurs listes */
 }
 
 /* Mise en page CV */
