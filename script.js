@@ -1,5 +1,7 @@
 // création des fonctions js pour chaques champs du CV
 
+//création de la fonction switch pour image
+
 function nom(){
     let contenu = document.getElementById("nom"); // création varaible avec récupération de l'id du champs à remplir
 
