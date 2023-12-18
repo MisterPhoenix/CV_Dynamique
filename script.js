@@ -92,12 +92,42 @@ function sexp(){
     }
 }
 
-const texp1 = new Texp("pôle emploie");
-const pdip1 = new Pdip("Baccalauréat Scientifique");
-const sdip1 = new Sdip("Licence mention métiers de l'informatique");
-const tdip1 = new Tdip("Master Informatique");
+function texp(){
+    let contenu = document.getElementById("texp");
 
-document.getElementById("texp").innerHTML = texp1.texp;
-document.getElementById("pdip").innerHTML = pdip1.pdip;
-document.getElementById("sdip").innerHTML = sdip1.sdip;
-document.getElementById("tdip").innerHTML = tdip1.tdip;
+    if(contenu.innerHTML === "pôle emploie"){
+        contenu.innerHTML = "RSA";
+    } else {
+        contenu.innerHTML = "pôle emploie";
+    }
+}
+
+function pdip(){
+    let contenu = document.getElementById("pdip");
+
+    if(contenu.innerHTML === "Baccalauréat Scientifique"){
+        contenu.innerHTML === "C.A.P. Ingénieur génie industrielle";
+    } else {
+        contenu.innerHTML = "Baccalauréat Scientifique";
+    }
+}
+
+function sdip(){
+    let contenu = document.getElementById("sdip");
+
+    if(contenu.innerHTML === "Licence mention métiers de l'informatique"){
+        contenu.innerHTML = "Bac pas très professionnel recherche en RJ350";
+    } else {
+        contenu.innerHTML = "Licence mention métiers de l'informatique";
+    }
+}
+
+function tdip(){
+    let contenu = document.getElementById("tdip");
+
+    if(contenu.innerHTML === "Master Informatique"){
+        contenu.innerHTML = "Master Boulanger pâtissier";
+    } else {
+        contenu.innerHTML = "Master Informatique";
+    }
+}
